@@ -99,11 +99,10 @@ hr {
 </head>
 <body>
 
-Username <?php echo $_POST["Username"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; ?>
 
 
-<form action="welcome.php" method="post">
+
+<form>
   <div class="container">
     <h1 align="center">User Registration Form</h1><br>
     
@@ -146,7 +145,7 @@ Your email address is: <?php echo $_POST["email"]; ?>
 <br><br>
     
 
-    <button type="submit" >Register</button>
+    <button type="submit" onclick="myFunction()" class="registerbtn">Register</button>
   </div>
   
   
